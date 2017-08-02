@@ -1,0 +1,14 @@
+{
+  "name": "redux-lonely",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "redux": "^3.7.2",
+    "webpack": "3"
+  },
+  "scripts": {
+    "build": "webpack src/index.js build/app.js",
+    "dev": "webpack -w src/index.js build/app.js"
+  }
+}
